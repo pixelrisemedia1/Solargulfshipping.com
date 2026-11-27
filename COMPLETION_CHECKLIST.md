@@ -53,3 +53,9 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Scan every repository file, document, metadata field and deployed network request for any remaining third-party/Base44 runtime or media dependency.
 - [ ] Confirm all listed local assets are source-matched and used in the appropriate page; unused files are not removed until their role is understood.
 - [ ] Verify the latest deployment for this checklist commit and smoke-test every route and asset after deployment.
+
+## Solar Gulf source inventory (checked 2026-11-27)
+- [x] Confirmed source Home is a single long-form page with service cards, trust/metrics, office/operations imagery, industry tags, commitment statement, and contact details.
+- [x] Captured visible source media roles: logo repeated in footer, office building image, container image; no video or downloadable document element was present on the homepage.
+- [x] Confirmed visible source quote/contact CTAs are mailto links; phone and mobile are tel links; fax is plain text.
+- [ ] Verify homepage section geometry and mobile styles against screenshots; complete one-to-one text, image, link, and behavior audit before marking page fidelity done.
