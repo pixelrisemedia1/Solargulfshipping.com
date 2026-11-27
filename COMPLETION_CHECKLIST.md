@@ -34,3 +34,9 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [ ] Check browser console, failed network requests, broken links, 404s, image loading and performance on desktop/mobile.
 - [ ] Verify GitHub Actions deployment succeeds; open the live deployed copy in a fresh session and directly load/refresh every route.
 - [ ] Record final verification date, deployed commit, public URL, and any remaining limitation. Custom domain/DNS is intentionally deferred until requested.
+
+## Verified audit notes — 2026-11-27
+- [x] Inspected source homepage and its visible media: logo, office-building photo, container photo, and repeated footer logo. The source image files are already represented in the repository's local assets folder.
+- [x] Wired the office and container local images into the deployed page, added accessible labels, and added the local footer logo; GitHub Pages workflow succeeded and the live copy loads both panels.
+- [ ] Compare panel dimensions/crops, exact colors, typography, spacing, scroll animation and full-page screenshots against the source; image crop fidelity is still open.
+- [ ] Confirm whether a separate OAuth consent route is required; it was not visible in source homepage navigation.
