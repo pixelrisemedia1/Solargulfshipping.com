@@ -40,3 +40,8 @@ Rule: Check an item only after comparing against the source or testing the publi
 - [x] Wired the office and container local images into the deployed page, added accessible labels, and added the local footer logo; GitHub Pages workflow succeeded and the live copy loads both panels.
 - [ ] Compare panel dimensions/crops, exact colors, typography, spacing, scroll animation and full-page screenshots against the source; image crop fidelity is still open.
 - [ ] Confirm whether a separate OAuth consent route is required; it was not visible in source homepage navigation.
+
+### Solar image verification detail
+- [x] Identified the source image roles: logo, office building, shipping containers, plus the footer repeats the logo.
+- [x] The copy now loads local `assets/office.webp` and `assets/containers.webp` in the corresponding presence panels, plus `assets/logo.webp` at the top and in the footer. Live deployment verified at GitHub Pages.
+- [ ] Source panels are 600×450 on the inspected desktop viewport; copied panels currently render 579×390 at that viewport. Adjust and visually verify the source crop/size before checking image fidelity complete.
