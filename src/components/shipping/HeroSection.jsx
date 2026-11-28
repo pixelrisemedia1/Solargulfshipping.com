@@ -69,7 +69,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2, type: "spring" }}
           >
             <img 
-              src="${import.meta.env.BASE_URL}assets/logo.webp"
+              src={import.meta.env.BASE_URL + "assets/logo.webp"}
               alt="Solar Gulf Shipping Logo"
               className="h-32 w-auto"
             />

@@ -110,7 +110,7 @@ export default function ContactSection() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-3">
               <img 
-                src="${import.meta.env.BASE_URL}assets/logo.webp"
+                src={import.meta.env.BASE_URL + "assets/logo.webp"}
                 alt="Solar Gulf Shipping"
                 className="h-12 w-auto"
               />
